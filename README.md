@@ -1,4 +1,4 @@
-# Digit Recognition
+# <div align="center">Digit Recognition</div>
 
 ### <div align="center">Project Overview</div>
 Identifying hand-written digits using computer vision and classification.
