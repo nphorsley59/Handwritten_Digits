@@ -12,10 +12,10 @@ Preparing the MNIST dataset for analysis was relatively straight-forward. Even t
 
 ### <div align="center">Modeling</div>
 
-#### 1. Support Vector Machine (SVM)
+#### 1. Support Vector Machine
 I was interested in building several different models and comparing their performance. I started with a relatively simple classification method, SVM. There were a few steps to this method: 1) scale the data to have a mean of 0 and a variance of 1, 2) use subsets of the 'train' set as a model-building 'train' and 'test', 3) built and fit the model, and 4) test the accuracy of the model.
 
-#### 2. K-nearest Neighbor (KNN)
+#### 2. K-nearest Neighbor
 
 #### 3. Neural Network
 
