@@ -8,7 +8,7 @@ Preparing the MNIST dataset for analysis was relatively straight-forward. Even t
 
 **Figure 1.** A gray-scale image of a hand-written '9'.</br>
 
-![alt_text](link "Sample Digit")
+![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/digit_9.png "Sample Digit")
 
 ### <div align="center">Modeling</div>
 I was interested in building several different models and comparing their performance. I started with a relatively simple classification method, Support Vector Machine (SVM). There were a few steps to this method: 1) scale the data to have a mean of 0 and a variance of 1, 2) use subsets of the 'train' set as a model-building 'train' and 'test', 3) built and fit the model, and 4) test the accuracy of the model.
