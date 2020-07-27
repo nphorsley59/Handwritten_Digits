@@ -23,3 +23,4 @@ More advanced machine learning methods, such as neural networks, were not someth
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
