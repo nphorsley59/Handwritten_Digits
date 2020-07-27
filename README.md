@@ -22,5 +22,5 @@ I used another commonly used classification method, K-nearest Neighbor, to group
 More advanced machine learning methods, such as neural networks, were not something I had much experience with before this project. I thought this project would be a great opportunity to attempt to build a simple neural network model. The dataset is well-established and I could compare my results with other methods.
 
 ### <div align="center">Resources</div>
-https://www.kaggle.com/c/digit-recognizer
+https://www.kaggle.com/c/digit-recognizer<br/>
 https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
