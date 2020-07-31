@@ -20,6 +20,8 @@ I was interested in building several different models and comparing their perfor
 #### 2. K-nearest Neighbor
 I used another commonly used classification method, K-nearest Neighbor, to group the images by digit. 
 
+**Figure 3.**</br>
+
 #### 3. Neural Network
 More advanced machine learning methods, such as neural networks, were not something I had much experience with before this project. I thought this project would be a great opportunity to attempt to build a simple neural network model. The dataset is well-established and I could compare my results with other methods.
 
