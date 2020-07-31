@@ -15,6 +15,8 @@ Preparing the MNIST dataset for analysis was relatively straight-forward. Even t
 #### 1. Support Vector Machine
 I was interested in building several different models and comparing their performance. I started with a relatively simple classification method, SVM. There were a few steps to this method: 1) scale the data to have a mean of 0 and a variance of 1, 2) use subsets of the 'train' set as a model-building 'train' and 'test', 3) built and fit the model, and 4) test the accuracy of the model.
 
+**Figure 2.**</br>
+
 #### 2. K-nearest Neighbor
 I used another commonly used classification method, K-nearest Neighbor, to group the images by digit. 
 
