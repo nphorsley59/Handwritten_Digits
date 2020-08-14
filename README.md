@@ -19,8 +19,10 @@ I was interested in building several different models and comparing their perfor
 
 ![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "SVM Model")</br>
 
+The SVM model tested surprisingly well, but struggled to identify 8's and misidentified many digits as 2's.</br>
+
 #### 2. K-nearest Neighbor
-I used another commonly used classification method, K-nearest Neighbor, to group the images by digit. 
+K-nearest Neighbor (KNN), another commonly used classification method, . 
 
 **Figure 3.**</br>
 
