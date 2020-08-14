@@ -21,8 +21,8 @@ I was interested in building several different models and comparing their perfor
 
 The SVM model tested surprisingly well, but struggled to identify 8's and misidentified many digits as 2's.</br>
 
-#### 2. K-nearest Neighbor
-K-nearest Neighbor (KNN), another commonly used classification method, . 
+#### 2. K-nearest Neighbors
+A K-nearest Neighbors (KNN) classifier is another commonly used machine learning algorithm.  
 
 **Figure 3.**</br>
 
