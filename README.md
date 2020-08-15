@@ -13,9 +13,9 @@ Preparing the MNIST dataset for analysis was relatively straight-forward. Even t
 ### <div align="center">Modeling</div>
 
 #### 1. Support Vector Machine
-I was interested in building several different models and comparing their performance. I started with a relatively simple classification method, SVM. There were a few steps to this method: </br>
+I was interested in building several different models and comparing their performance. I started with a relatively simple classification method, SVM. There were a few steps to this method:</br>
 1) shuffle the 'train' rows</br>
-2) split 'train' into a Train and Test sets</br>
+2) split 'train' into Train and Test sets</br>
 3) scale the Train set</br>
 4) build and fit an SVM model</br>
 5) test the accuracy of the model</br>
@@ -28,7 +28,12 @@ I was interested in building several different models and comparing their perfor
 The SVM model tested surprisingly well. Most digits were identified correctly (the numbers on the diagonal). However, the model did struggle to identify 8's and often misidentified digits as 2's. It also only had about 95% accuracy; good but not great.</br>
 
 #### 2. K-nearest Neighbors
-A K-nearest Neighbors (KNN) classifier is another commonly used machine learning algorithm. Similar to SVM, I split this analysis into several steps: 1) 
+A K-nearest Neighbors (KNN) classifier is another commonly used machine learning algorithm. Similar to SVM, I split this analysis into several steps:</br>
+1) shuffle the 'train' rows</br> 
+2) split 'train' into Train and Test sets</br>
+3) build and fit a KNN model</br>
+4) use a grid search to hone the hyperparameters</br>
+5) test the accuracy of the model</br>
 
 **Figure 3.**</br>
 
