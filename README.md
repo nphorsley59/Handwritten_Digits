@@ -19,7 +19,7 @@ I was interested in building several different models and comparing their perfor
 
 ![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "SVM Model")</br>
 
-The SVM model tested surprisingly well, but struggled to identify 8's and misidentified many digits as 2's.</br>
+The SVM model tested surprisingly well. Most digits were identified correctly (the numbers on the diagonal). However, the model did struggle to identify 8's and often misidentified digits as 2's. It also only had about 95% accuracy; good but not great.</br>
 
 #### 2. K-nearest Neighbors
 A K-nearest Neighbors (KNN) classifier is another commonly used machine learning algorithm.  
