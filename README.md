@@ -47,10 +47,6 @@ The base KNN model slightly outperformed the SVM model I tested, but it could be
 
 The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%.</br>
 
-### <div align="center">Summary</div>
-
-
-
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
 https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
