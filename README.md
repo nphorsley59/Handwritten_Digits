@@ -1,7 +1,7 @@
 # <div align="center">MNIST Digit Recognition</div>
 
 ### <div align="center">Project Overview</div>
-Computer vision is a common application of machine learning algorithms. I used the MNIST dataset (shared as a Kaggle competition) to demonstrate the application of classification methods (SVM and KNN) and neural networks to computer vision. The primary objective of the project was to train a model to recognize hand-written digits (0-9) in scanned, black-and-white images. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
+Computer vision is a common application of machine learning algorithms. I used the MNIST dataset (shared as a Kaggle competition) to demonstrate the application of classification methods (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize hand-written digits (0-9) in scanned, black-and-white images. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
 
 ### <div align="center">Preparation</div>
 Preparing the MNIST dataset for analysis was relatively straight-forward. Even though I assumed it was a clean dataset, I ran some quick tests looking for NaNs and other potential typos/outliers to be safe. I also collected some basic information about the structure of the dataset and visualized the images the model would be working with (Figure 1). The full dataset contained 42,000 28x28 images of digits, ranging from 0-9.
@@ -50,11 +50,6 @@ The base KNN model actually scored higher than the SVM model I tested, but it co
 ![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Adjusted KNN Model")</br>
 
 The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%. Before moving on to deep learning, I wanted to visualize the classification power of this model.</br>
-
-#### 3. Neural Network
-More advanced machine learning methods, such as neural networks, were not something I had much experience with before this project. I thought this project would be a great opportunity to attempt to build a simple neural network model. The dataset is well-established and I could compare my results with other methods.
-
-**Figure 4.**</br>
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
