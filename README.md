@@ -1,7 +1,7 @@
 # <div align="center">MNIST Digit Recognition</div>
 
 ### <div align="center">Project Overview</div>
-Computer vision is a common application of machine learning algorithms. I used the MNIST dataset (shared as a Kaggle competition) to demonstrate the application of classification methods (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize hand-written digits (0-9) in scanned, black-and-white images. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
+Computer vision is a common application of machine learning algorithms. I used the MNIST dataset (shared as a Kaggle competition) to demonstrate the application of classification methods (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize hand-written digits (0-9) in scanned, black-and-white images. My top model correctly classified digits 97% of the time. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
 
 ### <div align="center">Preparation</div>
 Preparing the MNIST dataset for analysis was relatively straight-forward. Even though I assumed it was a clean dataset, I ran some quick tests looking for NaNs and other potential typos/outliers to be safe. I also collected some basic information about the structure of the dataset and visualized the images the model would be working with (Figure 1). The full dataset contained 42,000 28x28 images of digits, ranging from 0-9.
@@ -46,6 +46,10 @@ The base KNN model slightly outperformed the SVM model I tested, but it could be
 ![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/KNN_adj.png "Adjusted KNN Model")</br>
 
 The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%.</br>
+
+### <div align="center">Summary</div>
+
+
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
