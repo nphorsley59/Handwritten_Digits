@@ -49,7 +49,9 @@ The base KNN model actually scored higher than the SVM model I tested, but it co
 
 ![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Adjusted KNN Model")</br>
 
-The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%. Before moving on to deep learning, I wanted to visualize the classification power of this model.</br>
+The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%.</br>
+
+**Figure 6.** Confusion matrix of the adjusted KNN model.</br>
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
