@@ -35,7 +35,21 @@ A K-nearest Neighbors (KNN) classifier is another commonly used machine learning
 4) use a grid search to hone the hyperparameters</br>
 5) test the accuracy of the model</br>
 
-**Figure 3.**</br>
+**Figure 3.** Fitting and scoring a base KNN model.</br>
+
+![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Base KNN Model")</br>
+
+The base KNN model actually scored higher than the SVM model I tested, but it could still be improved. I performed a grid search to find better hyperparameter values.
+
+**Figure 4.** Executing a grid search to compare hyperparameters.</br>
+
+![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "KNN Grid Search")</br>
+
+**Figure 5.** Fitting and scoring an adjusted KNN model.</br>
+
+![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Adjusted KNN Model")</br>
+
+The adjusted KNN algorithm improved the image recognition accuracy of the model by X%.</br>
 
 #### 3. Neural Network
 More advanced machine learning methods, such as neural networks, were not something I had much experience with before this project. I thought this project would be a great opportunity to attempt to build a simple neural network model. The dataset is well-established and I could compare my results with other methods.
