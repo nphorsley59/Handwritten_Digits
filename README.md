@@ -49,7 +49,7 @@ The base KNN model actually scored higher than the SVM model I tested, but it co
 
 ![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Adjusted KNN Model")</br>
 
-The adjusted KNN algorithm improved the image recognition accuracy of the model by X%.</br>
+The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%. Before moving on to deep learning, I wanted to visualize the classification power of this model.</br>
 
 #### 3. Neural Network
 More advanced machine learning methods, such as neural networks, were not something I had much experience with before this project. I thought this project would be a great opportunity to attempt to build a simple neural network model. The dataset is well-established and I could compare my results with other methods.
