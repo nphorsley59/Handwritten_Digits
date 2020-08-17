@@ -39,11 +39,11 @@ The base KNN model slightly outperformed the SVM model I tested, but it could be
 
 **Figure 3.** Executing a grid search to compare hyperparameters.</br>
 
-![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "KNN Grid Search")</br>
+![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/GridSearch.png "KNN Grid Search")</br>
 
 **Figure 4.** Fitting and scoring an adjusted KNN model.</br>
 
-![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/SVM_1.png "Adjusted KNN Model")</br>
+![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/KNN_adj.png "Adjusted KNN Model")</br>
 
 The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%.</br>
 
