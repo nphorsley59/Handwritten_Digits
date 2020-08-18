@@ -6,9 +6,9 @@ Computer vision is a common application of machine learning algorithms. I used t
 ### <div align="center">Preparation</div>
 Preparing the MNIST dataset for analysis was relatively straight-forward. Even though I assumed it was a clean dataset, I ran some quick tests looking for NaNs and other potential typos/outliers to be safe. I also collected some basic information about the structure of the dataset and visualized the images the model would be working with (Figure 1). The full dataset contained 42,000 28x28 images of digits, ranging from 0-9.
 
-**Figure 1.** A gray-scale image of a hand-written '9'.</br>
+**Figure 1.** A sample of hand-written digits from the dataset.</br>
 
-![alt_text](https://github.com/nphorsley59/Digit_Recognition/blob/master/Figures/digit_9.png "Sample Digit")
+![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/60_digits.png "Sample Digit")
 
 ### <div align="center">Modeling</div>
 
