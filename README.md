@@ -45,7 +45,11 @@ The base KNN model slightly outperformed the SVM model I tested, but it could be
 
 ![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/KNN_adj.png "Adjusted KNN Model")</br>
 
-The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%.</br>
+The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%. For fun, I tried getting even closer to 100% accuracy with data augmentation.</br>
+
+Data augmentation increases the effective sample size of a dataset without actually collecting more data. In this case, I shifted each digit up, down, left, and right, resulting in a training dataset that was 5x larger and had slightly more variation. If I had more computing power, I would have added rotation to the images as well.
+
+
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
