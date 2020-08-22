@@ -49,7 +49,7 @@ The adjusted KNN algorithm yielded an average cross-validation score of 97%, imp
 
 Data augmentation increases the effective sample size of a dataset without actually collecting more data. In this case, I shifted each digit up, down, left, and right, resulting in a training dataset that was 5x larger and had slightly more variation. If I had more computing power, I would have added rotated images to the dataset as well.</br>
 
-**Figure 5.** Shifted copies of a sample digit.</br>
+**Figure 5.** Original and shifted copies of a sample '2'.</br>
 
 ![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/shifted_digits.png "Original and Shifted Digits")</br>
 
