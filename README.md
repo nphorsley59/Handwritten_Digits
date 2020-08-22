@@ -51,6 +51,8 @@ Data augmentation increases the effective sample size of a dataset without actua
 
 **Figure 5.** Shifted copies of a sample digit.</br>
 
+![alt_text](https://github.com/nphorsley59/MNIST_Digit_Recognition/blob/master/Figures/shifted_digits.png "Original and Shifted Digits")</br>
+
 **Figure 6.** Model performance for cross-validation in the augmented 'train' dataset.</br>
 
 **Figure 7.** Top model performance using the 'test' dataset.</br>
