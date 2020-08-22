@@ -55,7 +55,11 @@ Data augmentation increases the effective sample size of a dataset without actua
 
 **Figure 6.** Model performance for cross-validation in the augmented 'train' dataset.</br>
 
+![alt_text]()</br>
+
 **Figure 7.** Top model performance using the 'test' dataset.</br>
+
+![alt_text]()</br>
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/digit-recognizer<br/>
