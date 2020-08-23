@@ -57,7 +57,7 @@ Data augmentation increases the effective sample size of a dataset without actua
 
 ![alt_text]()</br>
 
-
+Other advanced optimization strategies could be employed to make incremental improvements to the model but, for my purposes, 98% is pretty dang good.
 
 **Figure 7.** Top model performance using the 'test' dataset.</br>
 
