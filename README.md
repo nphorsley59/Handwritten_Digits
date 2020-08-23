@@ -47,7 +47,7 @@ The base KNN model slightly outperformed the SVM model I tested, but it could be
 
 The adjusted KNN algorithm yielded an average cross-validation score of 97%, improving the image recognition accuracy of the model by 2%. For fun, I tried getting even closer to 100% accuracy with data augmentation.</br>
 
-Data augmentation increases the effective sample size of a dataset without actually collecting more data. In this case, I shifted each digit up, down, left, and right, resulting in a training dataset that was 5x larger and had slightly more variation. If I had more computing power, I would have added rotated images to the dataset as well.</br>
+Data augmentation increases the effective sample size of a dataset without actually collecting more data. In this case, I shifted each digit up, down, left, and right, resulting in a training dataset that was 5x larger and had slightly more variation. This model took hours to run and compared almost 200,000 images, roughly 150 million data points. If I had more computing power, I could have added rotated images to the dataset as well.</br>
 
 **Figure 5.** Original and shifted copies of a sample '2'.</br>
 
@@ -56,6 +56,8 @@ Data augmentation increases the effective sample size of a dataset without actua
 **Figure 6.** Model performance for cross-validation of the augmented 'train' dataset.</br>
 
 ![alt_text]()</br>
+
+
 
 **Figure 7.** Top model performance using the 'test' dataset.</br>
 
