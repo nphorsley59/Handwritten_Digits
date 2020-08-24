@@ -4,7 +4,7 @@
 Skills Demonstrated: *classification algorithms, big data, model optimization, data augmentation*<br />
 Libraries and Programs: *Python, Jupyter Notebook, matplotlib, numpy, pandas, scikit-learn, scipy, statistics*<br />
 
-Computer vision is a common application of machine learning algorithms. I used the MNIST dataset to demonstrate the application of classification methods (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize digital, black-and-white images of hand-written digits (0-9). My top model correctly classified >97% of the images in the 'test' dataset. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
+Computer vision is a common application of machine learning algorithms. I used the MNIST dataset<sup>1</sup> to demonstrate the application of classification methods<sup>2</sup> (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize digital, black-and-white images of hand-written digits (0-9). My top model correctly classified >97% of the images in the 'test' dataset. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
 
 ### <div align="center">Preparation</div>
 Preparing the MNIST dataset for analysis was relatively straight-forward. Even though I assumed it was a clean dataset, I ran some quick tests looking for NaNs and other potential typos/outliers to be safe. I also collected some basic information about the structure of the dataset and visualized the images the model would be working with (Figure 1). The full dataset contained 42,000 28x28 images of digits, ranging from 0-9.
@@ -65,5 +65,5 @@ Data augmentation increases the effective sample size of a dataset without actua
 ![alt_text]()</br>
 
 ### <div align="center">Resources</div>
-https://www.kaggle.com/c/digit-recognizer<br/>
-https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+<sup>1</sup> https://www.kaggle.com/c/digit-recognizer<br/>
+<sup>2</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
