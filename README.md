@@ -57,7 +57,7 @@ Data augmentation increases the effective sample size of a dataset without actua
 
 ![alt_text]()</br>
 
-**Figure 7.** Top model performance using the 'test' dataset.</br>
+**Figure 7.** Top model performance on the 'test' dataset.</br>
 
 ![alt_text]()</br>
 
