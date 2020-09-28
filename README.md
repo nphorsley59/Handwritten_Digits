@@ -1,7 +1,7 @@
 # <div align="center">MNIST Digit Recognition</div>
 
 ### <div align="center">Project Overview</div>
-Skills Demonstrated: *clustering algorithms, big data, model optimization, data augmentation*<br />
+Skills Demonstrated: *SVM, KNN, big data, model optimization, data augmentation*<br />
 Libraries and Programs: *Python, Jupyter Notebook, matplotlib, numpy, pandas, scikit-learn, scipy, statistics*<br />
 
 Computer vision is a common application of machine learning algorithms. I used the MNIST dataset<sup>1</sup> to demonstrate the application of clustering methods<sup>2</sup> (SVM and KNN) to computer vision. The primary objective of the project was to train a model to recognize digital, black-and-white images of hand-written digits (0-9). My top model correctly identified >97% of the images in the 'test' dataset. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook]().
